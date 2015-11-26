@@ -1,0 +1,177 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\subsection[vivien-giraud]{Vivien Giraud}
+
+\placetable[none]{}
+\starttable[|l|r|]
+\HL
+\NC 12 avenue de la cible
+\NC jobs@viviengiraud.fr
+\NC\AR
+\NC 13100 Aix-en-Provence
+\NC https://fr.linkedin.com/in/viviengiraud/en
+\NC\AR
+\NC France
+\NC +33 (0)6 21.43.30.87
+\NC\AR
+\HL
+\stoptable
+
+\section[embedded-softwate-developper]{EMBEDDED SOFTWATE DEVELOPPER}
+
+\startblockquote
+Passionate about hacking and Do It Yourself philosophy, I enjoy reverse
+engineering all I have on hand and developing tool to automate my
+research.
+\stopblockquote
+
+\subsubsection[education]{Education}
+
+\startdescription{2011-2014}
+  {\bf Bachelor, Real Time and Embedded Systems}; Ingésup
+  (Aix-en-Provence)
+
+  {\em Project Manager for TVOS and Litchi Project and in charge of
+  laboratory}
+\stopdescription
+
+\subsubsection[experience]{Experience}
+
+\startdescription{{\bf INSIDE Secure} {\em (2014-)}}
+  Pre-sales and support of MatrixSSE and MatrixHCE sofware
+
+  {\bf \useURL[url1][http://www.insidesecure.com/Markets-solutions/Payment-and-Mobile-Banking/MatrixSSE2][][MatrixSSE]\from[url1]}
+  Secure Element in Software
+
+  {\bf \useURL[url2][http://www.insidesecure.com/Products-Technologies/Mobile-Payment-and-Banking/Matrix-HCE][][MatrixHCE]\from[url2]}
+  HCE based Mobile Payment Application Platform
+\stopdescription
+
+\startdescription{{\bf NEOTION} {\em (2011-2014)}}
+  Development of a debugger and a smartcard reader for QEMU
+
+  {\bf NeoGDB} Based on GDB and OpenOCD
+
+  {\bf SmartCard Reader} I wrote specifications of the proprietary usb
+  protocol the company would use then search for appropriate
+  electronical components, read datasheets then Hardware design the
+  smartcard reader. Based on AVR32 chip, I wrote code so as to make the
+  bootloader, the USB communication and firmware update.
+\stopdescription
+
+\subsubsection[technical-experience]{Technical Experience}
+
+\startdescription{{\bf TVOS:}}
+  Development of an open-source TV based on Linux and Litchi Project. I
+  was in charge of low level development and packaging firmware image.
+\stopdescription
+
+\startdescription{{\bf Litchi Project:}}
+  Hardware and software development of a low cost video game console
+  allowing you to use it as a media center.
+\stopdescription
+
+\startdescription{{\bf Multi-voltage JTAG/Serial dongle:}}
+  Hardware design of a JTAG/Serial dongle able to works on different
+  voltage (1,8v - 3,3v - 5v) or can use any voltage between 1,8v to
+  5,0v. Based on
+  \useURL[url3][http://www.ftdichip.com/Products/ICs/FT4232H.htm][][FT4232H]\from[url3]
+  chip you can, at the same time, control your CPU using JTAG and
+  received debug information via Serial port.
+\stopdescription
+
+\startdescription{{\bf Brutas:}}
+  I wrote tool to automate my research in security flaws on embedded
+  products. Thanks to it I was able to find various breaches in
+  surveillance cameras.
+
+  Knowledge in {\bf LibUSB}, {\bf LibFTDI}, {\bf ARM Assembly},
+  {\bf AVR32}
+\stopdescription
+
+\subsubsection[extra-section]{Extra Section}
+
+\startitemize
+\item
+  Languages:
+
+  \startitemize[packed]
+  \item
+    French (native speaker)
+  \item
+    English (TOEIC 760)
+  \item
+    Chinese, Japanese and Hungarian concepts
+  \stopitemize
+\item
+  Roller hockey, Guitar player, Reverse engineering
+\stopitemize
+
+\stoptext
