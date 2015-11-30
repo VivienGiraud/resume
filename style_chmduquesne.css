@@ -48,7 +48,7 @@ h3:before {
     content: "";
     display: inline-block;
     margin-right:1%;
-    width: 16%;
+    width: 17%;
     height: 10px;
     /* This is called "rulecolor" in the ConTeXt stylesheet. */
     background-color: #9CB770;
@@ -63,12 +63,12 @@ h3:hover {
 dt {
     float: left;
     clear: left;
-    width: 17%;
+    width: 18%;
     text-align: left;
     /*font-weight: bold;*/
 }
 dd {
-    margin-left: 17%;
+    margin-left: 18%;
     text-align: left;
 }
 p {

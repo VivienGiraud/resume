@@ -13,8 +13,8 @@ France                                                                      +33 
 
 ### Education
 
-2011-2014
-:   **Bachelor, Real Time and Embedded Systems**; Ingésup (Aix-en-Provence)
+**Ingésup** <br /> _Aix en provence_ <br /> _(2011-2014)_
+:   _Bachelor, Real Time and Embedded Systems_
 
     *Project Manager for TVOS and Litchi Project and in charge of laboratory*
 
@@ -22,7 +22,7 @@ France                                                                      +33 
 ### Experience
 
 
-**INSIDE Secure**  _(2014-)_
+**INSIDE Secure** <br /> _Meyreuil_ <br /> _(2014-)_
 :   Pre-sales and support of MatrixSSE and MatrixHCE sofware
 
     **[MatrixSSE](http://www.insidesecure.com/Markets-solutions/Payment-and-Mobile-Banking/MatrixSSE2)**
@@ -31,7 +31,7 @@ France                                                                      +33 
     **[MatrixHCE](http://www.insidesecure.com/Products-Technologies/Mobile-Payment-and-Banking/Matrix-HCE)**
     HCE based Mobile Payment Application Platform
 
-**NEOTION**    _(2011-2014)_
+**NEOTION** <br /> _Aubagne_ <br /> _(2011-2014)_
 :   Development of a debugger and a smartcard reader for QEMU
 
     **NeoGDB**
