@@ -1,10 +1,17 @@
 ## Vivien Giraud
 
------------------------------------                   ------------------------------------------------------
-12 avenue de la cible                                 [jobs@viviengiraud.fr](mailto:jobs@viviengiraud.fr)
-13100 Aix-en-Provence                                 [LinkedIn](https://fr.linkedin.com/in/viviengiraud/en)
-France                                                                      +33 (0)6 21.43.30.87
------------------------------------                   ------------------------------------------------------
+![](vivien.jpeg)
+
+:   >12 avenue de la cible  <jobs@viviengiraud.fr> <br />
+13100 Aix-en-Provence  [LinkedIn](https://fr.linkedin.com/in/viviengiraud/en) <br />
+France  +33 (0)6 21.43.30.87 <br /><blockquote>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 # EMBEDDED SOFTWATE DEVELOPPER
 
@@ -16,7 +23,7 @@ France                                                                      +33 
 **Ingésup** <br /> _Aix en provence_ <br /> _(2011-2014)_
 :   _Bachelor, Real Time and Embedded Systems_
 
-    *Project Manager for TVOS and Litchi Project and in charge of laboratory*
+    Project Manager for TVOS and Litchi Project and in charge of laboratory
 
 
 ### Experience
